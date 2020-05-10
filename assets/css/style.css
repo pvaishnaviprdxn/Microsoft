@@ -484,6 +484,7 @@ h4:after {
 .social li {
     padding: 0 5px;
 }
+
 h5 { 
     font-size: 12px;
     color: rgb(241,242,246);
@@ -495,6 +496,7 @@ h5 {
     padding:10px 0;
     color: rgb(241,242,246);
  }
+
 /*social style end*/
 /*=================================
   main styling ends here
@@ -503,13 +505,77 @@ h5 {
 /*=================================
   footer styling starts here
 =================================*/ 
+footer{
+    width: 100%;
+    padding: 30px 0;
+    float:left;
+    background-color: rgb(245,240,246);
+}
+.fflex {
+    margin-top: 20px;
+    display: flex;
+}
+.f1, 
+.f2,
+.f3, 
+.f4, 
+.f5 
 
 
+.f1 ul { padding-top: 10px; }
 
+.f1 ul li, 
+.f2 ul li,
+.f3 ul li,
+.f4 ul li,
+.f5 ul li,
+.f6 ul li { 
+    width: 190px;
+    display: block;
+    padding: 8px 0; 
+}
 
+.f1 ul li a,
+.f2 ul li a,
+.f3 ul li a,
+.f4 ul li a,
+.f5 ul li a,
+.f6 ul li a { 
+    font-size: 12px;
+    color: rgb(89,84,90);
+}
 
+.f1 ul li a:hover,
+.f2 ul li a:hover,
+.f3 ul li a:hover,
+.f4 ul li a:hover,
+.f5 ul li a:hover,
+.f6 ul li a:hover,
+footer ul li a:hover { 
+    color: rgb(50,98,183);
+    text-decoration: underline;
+}
 
+.ftitle {
+    font-size: 16px;
+    font-weight: bold;
+}
 
+.language {
+    display: inline-block;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+footer ul { float: right; }
+
+footer ul li { padding: 0 8px; }
+
+footer ul li a { 
+    font-size: 12px;
+    color: rgb(89,84,90);
+}
+
+footer ul li span { font-size: 12px; }
  /*=================================
   footer styling ends here
 =================================*/ 
