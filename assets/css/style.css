@@ -133,13 +133,48 @@ nav { display: inline-block; }
 .search-cart a:hover { color: rgb(51,97,182); }
 
 .search-cart {
-  width: 10%;
+  width: 100px;
+  margin-left: 11%;
   display: inline-block;
 }
 
-.search-cart a { color: black;}
-
+.search-cart a { 
+  padding-left: 30px;
+  color: black;
+  text-align: center;
+}
 /*nav style end for menu1 */
+
+/*head 2 styling start*/
+.head2 {
+  padding: 15px 0;
+  background-color: rgb(51,97,182);
+}
+/*head 2 styling end*/
+
+/*style start for menu2 */
+.menu2 li { color: rgb(236, 247, 248); }
+.enterprise { font-size: 18px; }
+.menu2 li a:hover { text-decoration: underline; }
+
+.menu2 li a { 
+  padding-left: 65px;
+  color: rgb(236, 247, 248);
+  font-size: 14px;
+}
+
+.menu2 .fas.fa-angle-down {
+  padding-left: 2px;
+  font-size: 13px;
+}
+
+/*style end for menu2 */
+
+
+
+
+
+/*head 2 styling end*/
 
 /*=================================
   Header styling ends here
