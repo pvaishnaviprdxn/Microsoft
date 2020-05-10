@@ -213,7 +213,7 @@ h2 {
     padding-top: 40px;
     padding-left: 70px;
     color: rgb(255,255,255);
-    font-size: 32px;
+    font-size: 36px;
     font-weight: bold;
 }
 
@@ -258,7 +258,7 @@ h2 {
 
 h3 {
     padding-left: 70px;
-    font-size: 28px;
+    font-size: 34px;
 }
 
 .aboutDt {
@@ -282,7 +282,7 @@ h3 {
 /*digital transformation style end*/
 /*product transformation style start*/
 .productT {
-    padding: 70px 0;
+    padding: 60px 0;
     background-color: rgb(255,253,255);
 }
 
@@ -325,7 +325,7 @@ h3 {
     padding: 10px 0;
     font-size: 14px;
 }
-.ptitle { font-size: 25px; }
+.ptitle { font-size: 30px; }
 
 .pro-content a {
     font-size: 14px;
@@ -339,6 +339,143 @@ h3 {
     height: 100px;
 }
 /*product transformation style end*/
+
+/*article style start*/
+.resources {
+    padding: 60px 0;
+    background-color: rgb(241, 242, 246);
+}
+
+h4 { 
+    width: 88%;
+    padding-left: 70px;
+}
+
+h4:after { 
+    content: "";
+    width: 100%;
+    height: .5px;
+    display: block;
+    background-color: rgb(180, 179, 179);
+}
+
+.fa.fa-address-book {font-size: 14px;}
+
+.blogs { padding: 0 70px; }
+
+.blogs li {
+    border-bottom: .5px solid;
+    border-color: rgb(180, 179, 179);;
+}
+
+.blog-content {
+    width: 50%;
+    padding: 15px 0;
+    float: left;
+}
+
+.btitle { 
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.bauthor,
+.date{
+    display: block;
+    line-height: 2;
+    font-size: 15.5px;
+}
+
+.blog-content p:nth-child(4) { font-size: 16.2px; }
+
+.learn {
+    padding: 12px 0;
+    color: rgb(57, 171, 224);
+}
+
+.learn:hover { text-decoration: underline; }
+
+.blog-img {
+    margin-top: 30px;
+    margin-left: 111px;
+    float: left;
+}
+
+.blog-img img {
+    width: 400px;
+    height: 100px;
+}
+
+.viewBlog {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.viewBlog a {
+    padding: 10px 10px;
+    background-color: rgb(50,98,183);
+    color: rgb(241, 242, 246);
+    font-size: 14px;
+    border: 1px solid;
+}
+
+.viewBlog a:hover {
+    background-color: rgb(241, 242, 246);
+    color: rgb(50,98,183);
+    transition: 0.60s ease-out;
+    -webkit-transition: 0.60s ease-out;
+    -ms-transition: 0.60s ease-out;
+    -moz-transition: 0.60s ease-out;
+    -o-transition: 0.60s ease-out;
+}
+/*article style end*/
+/*download style start*/
+.download-contact { 
+    background: linear-gradient(90deg, rgb(57,115,214) 50%, rgb(21,35,80) 50%);
+    padding: 60px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.download,
+.sales-support2 {
+    width: 35%;
+    padding: 0 70px;
+    float: left;
+}
+
+.download a {
+    display: block;
+    margin-bottom: 20px;
+    color: rgb(241,242,246);
+    font-size: 20px;
+}
+
+.text1,
+.text2 {
+    padding-left: 6px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.text2 { font-size: 16px; font-weight: 100;}
+
+.sales-support2 {
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.sales-support2 a { 
+    margin-bottom: 20px;
+    display: block;
+    color: rgb(241,242,246);
+}
+
+.download a:hover,
+.sales-support2 a:hover { text-decoration: underline; }
+/*download style end*/
+
+
 /*=================================
   main styling ends here
 =================================*/
