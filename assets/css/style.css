@@ -26,7 +26,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block;
+    display: block;
 }
 
 /* Force scrollbar */
@@ -45,25 +45,25 @@ button {
 }
 
 strong {
-  font-weight: bold;
-  font-family: inherit;
-  font-size: inherit;
+    font-weight: bold;
+    font-family: inherit;
+    font-size: inherit;
 }
 
 em { font-style: italic; }
 
 img {
-  width: 100%;
-  border: 0;
-  vertical-align: middle;
+    width: 100%;
+    border: 0;
+    vertical-align: middle;
 }
 
 sub,
 sup {
-  vertical-align: baseline;
-  position: relative;
-  font-size: 55%;
-  line-height: 0;
+    vertical-align: baseline;
+    position: relative;
+    font-size: 55%;
+    line-height: 0;
 }
 
 sup { top: -.7em; }
@@ -74,8 +74,8 @@ sub { bottom: -.25em; }
 
 .cf:before,
 .cf:after {
-  display: table;
-  content: " ";
+    display: table;
+    content: " ";
 }
 
 .cf:after { clear: both; }
@@ -83,25 +83,25 @@ sub { bottom: -.25em; }
 
 /*for all*/
 body {
-  box-sizing: border-box;
-  font-family: sans-serif;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 a { 
-  display: inline-block;
-  text-decoration: none; 
+    display: inline-block;
+    text-decoration: none; 
 }
 
 li {
-  display: inline-block;
-  list-style-type: none;
+    display: inline-block;
+    list-style-type: none;
 }
 
 /*for wrapper*/
 .wrapper {
-  max-width: 1360px;
-  width: 92%; 
-  margin: 0 auto;
+    max-width: 1360px;
+    width: 92%; 
+    margin: 0 auto;
 }
 /*=================================
   Header styling starts here
@@ -112,8 +112,8 @@ header { }
 h1 { display: inline-block; }
 
 h1 a img { 
-  width: 120px;
-  height: 40px;
+    width: 120px;
+    height: 40px;
 }
 /*logo style end*/
 
@@ -125,30 +125,30 @@ nav { display: inline-block; }
 .menu1 li { padding: 0 25px; }
 
 .menu1 li a { 
-  color: black;
-  font-size: 15px;
+    color: black;
+    font-size: 15px;
 }
 
 .menu1 li a:hover,
 .search-cart a:hover { color: rgb(51,97,182); }
 
 .search-cart {
-  width: 100px;
-  margin-left: 11%;
-  display: inline-block;
+    width: 100px;
+    margin-left: 11%;
+    display: inline-block;
 }
 
 .search-cart a { 
-  padding-left: 30px;
-  color: black;
-  text-align: center;
+    padding-left: 30px;
+    color: black;
+    text-align: center;
 }
 /*nav style end for menu1 */
 
 /*head 2 styling start*/
 .head2 {
-  padding: 15px 0;
-  background-color: rgb(51,97,182);
+    padding: 15px 0;
+    background-color: rgb(51,97,182);
 }
 /*head 2 styling end*/
 
@@ -158,24 +158,17 @@ nav { display: inline-block; }
 .menu2 li a:hover { text-decoration: underline; }
 
 .menu2 li a { 
-  padding-left: 65px;
-  color: rgb(236, 247, 248);
-  font-size: 14px;
+    padding-left: 65px;
+    color: rgb(236, 247, 248);
+    font-size: 14px;
 }
 
 .menu2 .fas.fa-angle-down {
-  padding-left: 2px;
-  font-size: 13px;
+    padding-left: 2px;
+    font-size: 13px;
 }
 
 /*style end for menu2 */
-
-
-
-
-
-/*head 2 styling end*/
-
 /*=================================
   Header styling ends here
 =================================*/  
@@ -183,14 +176,67 @@ nav { display: inline-block; }
 /*=================================
   main styling starts here
 =================================*/
+.digitalBusiness {
+    padding-bottom: 60px;
+    background-image: url(../images/image1.png);
+}
+.home-digiT { 
+    margin-top: 12px;
+    padding: 5px 3px;
+    display: inline-block;
+    background-color: rgb(255, 253, 253);
+    font-size: 12px;
+    color: rgb(51, 50, 50); 
+}
 
+.fas.fa-angle-right { font-size: 12px; }
+.home-digiT a { color: rgb(51, 50, 50); }
+.home-digiT a:hover { color: rgb(34, 94, 204); }
 
+.sales-support {
+    background-color: black;
+    padding: 5px 8px;
+    float: right;
+}
 
+.sales-support a { 
+    color: rgb(255, 253, 253);
+    font-size: 13px;
+    padding:0 5px;
+}
 
+.sales-support a:hover { text-decoration: underline; }
 
+h2 {
+    padding-top: 40px;
+    padding-left: 70px;
+    color: rgb(255,255,255);
+    font-size: 32px;
+    font-weight: bold;
+}
 
+.digiThought {
+    padding: 15px 399px 5px 70px;
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 1.2;
+    color: rgb(255,255,255);
+}
 
+.saidby {
+    padding: 0 70px;
+    color: rgb(255,255,255);
+    font-size: 14px;
+}
 
+.fas.fa-play-circle{
+    display: none;
+    font-size: 38px;
+}
+
+.modal {
+    display: none;
+}
 /*=================================
   main styling ends here
 =================================*/
