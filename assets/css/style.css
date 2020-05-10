@@ -100,17 +100,38 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 92%; 
   margin: 0 auto;
 }
 /*=================================
   Header styling starts here
 =================================*/
+header { }
+
+/*logo style start*/
+h1 { display: inline-block; }
+h1 a img { 
+  width: 120px;
+  height: 40px;
+  padding: 15px 0;
+}
+/*logo style end*/
+
+/*nav style start for menu1 */
 
 
+.lineMenu { display: none; }
+.nav { 
+  display: inline-block;
+ }
+.menu1{
+  width: 50%;
+  padding: 15px 0;
+  display: inline-block;
+}
 
 
-
+/*nav style end for menu1 */
 
 /*=================================
   Header styling ends here
