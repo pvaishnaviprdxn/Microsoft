@@ -176,6 +176,8 @@ nav { display: inline-block; }
 /*=================================
   main styling starts here
 =================================*/
+/*digital business style start-->*/
+
 .digitalBusiness {
     padding-bottom: 60px;
     background-image: url(../images/image1.png);
@@ -234,9 +236,44 @@ h2 {
     font-size: 38px;
 }
 
-.modal {
-    display: none;
+.modal { display: none; }
+/* digital business style end*/
+
+/*digital transformation style start*/
+.digitalTransformation {
+    
 }
+
+.digiT-content,
+.digiT-img {
+    width: 50%;
+    float: left;
+}
+
+h3 {
+    padding-left: 70px;
+    font-size: 28px;
+}
+
+.aboutDt {
+    padding: 12px 70px;
+    font-size: 14px;
+}
+
+.digiT-content p:nth-child(3) {
+    padding: 0 70px;
+    font-size: 13.5px;
+}
+
+.digiT-content p:nth-child(3) a{ color: rgb(57, 171, 224); }
+.digiT-content p:nth-child(3) a:hover{ text-decoration: underline; }
+
+.digiT-img img {
+   width: 511.13px;
+    height: 150px;
+}
+
+/*digital transformation style end*/
 /*=================================
   main styling ends here
 =================================*/
