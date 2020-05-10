@@ -241,13 +241,19 @@ h2 {
 
 /*digital transformation style start*/
 .digitalTransformation {
-    
+    padding: 60px 0;
+    background-color: rgb(241,242,246);
 }
 
-.digiT-content,
-.digiT-img {
+.digiT-content {
     width: 50%;
-    float: left;
+    height: 150px;
+    display: inline-block;
+}
+
+.digiT-img { 
+    width: 49%;
+    float: right;
 }
 
 h3 {
@@ -269,11 +275,70 @@ h3 {
 .digiT-content p:nth-child(3) a:hover{ text-decoration: underline; }
 
 .digiT-img img {
-   width: 511.13px;
+    width: 511.13px;
     height: 150px;
 }
 
 /*digital transformation style end*/
+/*product transformation style start*/
+.productT {
+    padding: 70px 0;
+    background-color: rgb(255,253,255);
+}
+
+.aboutpro {
+    padding: 12px 70px 12px 70px;
+    font-size: 14px;
+    display: block;
+}
+
+.aboutpro:after {
+    content: "";
+    width: 100%;
+    height: .5px;
+    margin-top: 10px;
+    display: block;
+    background-color: rgb(180, 179, 179);
+}
+
+.transformP { padding: 0 70px; }
+
+.transformP li { 
+    display: inline-block;
+    padding: 20px 0;
+    border-bottom: .5px solid;
+    border-color: rgb(180, 179, 179);
+ }
+
+.product-icon-image {
+    width: 50px;
+    float: left;
+}
+
+.pro-content { 
+    width: 590px;
+    padding: 0 12px;
+    float: left;
+}
+.pro-content p {
+    width: 70%;
+    padding: 10px 0;
+    font-size: 14px;
+}
+.ptitle { font-size: 25px; }
+
+.pro-content a {
+    font-size: 14px;
+    color: rgb(57, 171, 224);
+}
+
+.pro-img { float: left; }
+
+.pro-img img {
+    width: 358px;
+    height: 100px;
+}
+/*product transformation style end*/
 /*=================================
   main styling ends here
 =================================*/
