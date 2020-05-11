@@ -197,7 +197,7 @@ nav { display: inline-block; }
 
 .sales-support {
     background-color: black;
-    padding: 5px 8px;
+    padding: 6px 10px;
     float: right;
 }
 
@@ -207,6 +207,11 @@ nav { display: inline-block; }
     padding:0 5px;
 }
 
+.sale1,
+.support1 {
+    font-family: sans-serif;
+    font-size: 12px;
+}
 .sales-support a:hover { text-decoration: underline; }
 
 h2 {
@@ -232,11 +237,20 @@ h2 {
 }
 
 .fas.fa-play-circle{
-    display: none;
+    padding: 6px 10px;
     font-size: 38px;
+    border: 3px solid;
+    border-color: rgb(255, 253, 253);
+    color: rgb(255, 253, 253);
 }
 
-.modal { display: none; }
+.watch { 
+    font-weight: 100;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.modal { display:none; }
 /* digital business style end*/
 
 /*digital transformation style start*/
@@ -433,15 +447,13 @@ h4:after {
 .download-contact { 
     background: linear-gradient(90deg, rgb(57,115,214) 50%, rgb(21,35,80) 50%);
     padding: 60px 0;
-    float: left;
-    width: 100%;
 }
 
 .download,
 .sales-support2 {
     width: 35%;
     padding: 0 70px;
-    float: left;
+    display: inline-block;
 }
 
 .download a {
@@ -461,6 +473,7 @@ h4:after {
 .text2 { font-size: 16px; font-weight: 100;}
 
 .sales-support2 {
+    float: right;
     padding-left: 100px;
     padding-top: 30px;
 }
@@ -476,26 +489,31 @@ h4:after {
 /*download style end*/
 /*social style start*/
 .social-icons {
-    background-color: rgb(89,84,90);
-    float: left;
     width: 100%;
+    text-align: center;
+    background-color: rgb(89,84,90);
 }
-.social { text-align: center; }
-.social li {
-    padding: 0 5px;
-}
+.social { display: inline-block; }
+.social li { padding: 0 5px; }
 
 h5 { 
-    font-size: 12px;
+    width: 80px;
+    padding-bottom: 13px;
+    display: inline-block;
+    font-size: 16px;
     color: rgb(241,242,246);
-
 }
 
 .social li a { 
     font-size: 20px;
     padding:10px 0;
     color: rgb(241,242,246);
- }
+}
+
+.social li:nth-child(1) a:hover { color: rgb(29, 164, 248); }
+.social li:nth-child(2) a:hover { color: rgb(74, 215, 250); }
+.social li:nth-child(3) a:hover { color: rgb(7, 146, 200); }
+.social li:nth-child(4) a:hover { color: rgb(231, 16, 16); }
 
 /*social style end*/
 /*=================================
@@ -508,7 +526,6 @@ h5 {
 footer{
     width: 100%;
     padding: 30px 0;
-    float:left;
     background-color: rgb(245,240,246);
 }
 .fflex {
