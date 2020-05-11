@@ -180,6 +180,7 @@ nav { display: inline-block; }
 .digitalBusiness {
     padding-bottom: 60px;
     background-image: url(../images/image1.png);
+    background-size: cover;
 }
 .home-digiT { 
     margin-top: 12px;
@@ -535,18 +536,18 @@ footer{
     padding: 30px 0;
     background-color: rgb(245,240,246);
 }
+
 .fflex {
     margin-top: 20px;
     display: flex;
 }
+
 .f1, 
 .f2,
 .f3, 
 .f4, 
-.f5 
-
-
-.f1 ul { padding-top: 10px; }
+.f5,
+.f6 { padding-top: 10px; }
 
 .f1 ul li, 
 .f2 ul li,
@@ -587,15 +588,17 @@ footer ul li a:hover {
 
 .language {
     display: inline-block;
+    margin-top: 20px;
     font-size: 12px;
     font-family: sans-serif;
 }
-.fa-globe-europe:before { padding-right: 3px;}
+
+.fa-globe-europe:before { padding-right: 3px; }
+
 .fas { 
     font-family: "Font Awesome 5 Free", sans-serif;
     font-weight: 600;
 }
-footer ul { float: right; }
 
 footer ul li { padding: 0 8px; }
 
@@ -603,7 +606,7 @@ footer ul li a {
     font-size: 12px;
     color: rgb(89,84,90);
 }
-
+footer ul { float: right; }
 footer ul li span { font-size: 12px; }
  /*=================================
   footer styling ends here
@@ -611,6 +614,65 @@ footer ul li span { font-size: 12px; }
 
 /*media query starts*/
 /*media query for 995px starts here*/
+@media only screen and (max-width: 1024px) {
+    h1 a img { width: 100px; }
+
+    .menu1 li a,
+    .menu2 li a { font-size: 12px; }
+
+    .search-cart { margin-left: 0; }
+    .enterprise { font-size: 16px; }
+    .menu2 li a { padding-left: 56px; }
+    .sales-support a { font-size: 12px; }
+    .sale1, .support1 { font-size: 11px; }
+    h2 { font-size: 28px; }
+    .digiThought { font-size: 15px; }
+    .saidby { font-size: 13px; }
+    .vidbtn { width: 130px; }
+    .fas.fa-play-circle { font-size: 24px }
+
+    .watch { 
+        padding-top: 16px;
+        font-size: 12px;
+    }
+
+    h3 { font-size: 28px; }
+    .aboutDt { font-size: 13px; }
+    .digiT-content p:nth-child(3) { font-size: 12px; }
+    .digiT-img img { width: 395px; }
+    .pro-content { width: 450px;}
+    .ptitle { font-size: 25px;}
+    .pro-content p { font-size: 10px; }
+    .pro-content a { font-size: 11px; }
+    .pro-img img { width: 278px; }
+    .btitle { font-size: 26px; }
+
+    .bauthor, 
+    .date { 
+        line-height: 2;
+        font-size: 13.5px;
+    }
+
+    .blog-content p:nth-child(4) { font-size: 13.2px; }
+    .learn { font-size: 12.8px;}
+    .blog-img img { width: 290px; }
+    .sales-support2 { padding-left: 0;}
+    .f1 ul li, 
+    .f2 ul li, 
+    .f3 ul li, 
+    .f4 ul li, 
+    .f5 ul li, 
+    .f6 ul li { width: 158px; }
+
+    .f1 ul li a, 
+    .f2 ul li a, 
+    .f3 ul li a, 
+    .f4 ul li a, 
+    .f5 ul li a, 
+    .f6 ul li a { font-size: 10px; }
+
+    .ftitle { font-size: 14px; }
+}
 @media only screen and (max-width: 995px) {
 
 
