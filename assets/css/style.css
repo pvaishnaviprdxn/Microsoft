@@ -286,6 +286,7 @@ h3 {
 .aboutDt {
     padding: 12px 70px;
     font-size: 14px;
+    line-height: 1.5;
 }
 
 .digiT-content p:nth-child(3) {
@@ -685,3 +686,78 @@ footer ul li span { font-size: 12px; }
     .pro-img img { width: 251px; }
     .blog-img img { width: 276px; }
 }  
+
+@media only screen and (max-width: 768px) {
+    .menu1 li { padding: 0 10px; }
+    .ddown { font-size: 12px; }
+    .menu2 li a { padding-left: 32px; }
+    .enterprise { font-size: 18px; }
+    .home-digiT a { font-size: 10px; }
+    h2 { font-size: 20px; }
+
+    .digiThought { 
+        padding: 15px 219px 5px 70px;
+        font-size: 12px;
+    }
+
+    .saidby { font-size: 11px; }
+    .vidbtn { width: 112px; }
+    .fas.fa-play-circle { padding: 5px; }
+    
+    .watch {
+        padding-top: 11px;
+        font-size: 10px;
+    }
+
+    h3 { font-size: 21px; }
+
+    .aboutDt {
+        padding-right: 0;
+        font-size: 9px;
+    }
+
+    .digiT-content p:nth-child(3) { font-size: 8px; }
+    .digiT-img img { width: 228px; }
+    .fas.fa-angle-right { font-size: 8px; }
+    h3 { font-size: 18px; }
+    .aboutpro { font-size: 11px; }
+    .product-icon-image { width: 40px; }
+    .pro-content { width: 318px; }
+    .ptitle { font-size: 16px; }
+
+    .pro-content p {
+        width: 80%;
+        font-size: 9px;
+    }
+
+    .pro-content a { font-size: 9px; }
+    .pro-img img { width: 184px; }
+
+    .btitle {
+        font-size: 18px;
+    }
+
+    .bauthor, 
+    .date { font-size: 9.9px; }
+
+    .blog-content p:nth-child(4) {
+        font-size: 10px;
+    }
+
+    .learn { font-size: 10.8px; }
+    .blog-img img { width: 172px; }
+    .download a { font-size: 14px; }
+    .text1, .text2 { font-size: 11px; }
+    .sales-support2 { padding-top: 15px; }
+    h5 { font-size: 12px; }
+    
+    .fflex ul { width: 120px; }
+    .ftitle { font-size: 12px; }
+    .f1 ul li a,
+    .f2 ul li a, 
+    .f3 ul li a, 
+    .f4 ul li a, 
+    .f5 ul li a, 
+    .f6 ul li a { font-size: 8px; }
+    
+}
