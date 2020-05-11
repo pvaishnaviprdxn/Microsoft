@@ -606,7 +606,7 @@ footer ul li a {
     font-size: 12px;
     color: rgb(89,84,90);
 }
-footer ul { float: right; }
+.lastnav { float: right; }
 footer ul li span { font-size: 12px; }
  /*=================================
   footer styling ends here
@@ -674,7 +674,14 @@ footer ul li span { font-size: 12px; }
     .ftitle { font-size: 14px; }
 }
 @media only screen and (max-width: 995px) {
+    .search-cart { width: 91px; }
+    .search-cart a { padding-left: 26px; }
 
+    .digiT-img img {
+        width: 322px;
+        margin-left: 50px;
+    }
 
-
+    .pro-img img { width: 251px; }
+    .blog-img img { width: 276px; }
 }  
